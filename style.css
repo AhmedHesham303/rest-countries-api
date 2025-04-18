@@ -1,0 +1,103 @@
+.options {
+  margin-top: 4.8rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search,
+.filter {
+  background-color: #ffffff;
+  height: 5.6rem;
+}
+
+.search {
+  display: flex;
+  width: 48rem;
+  gap: 1.9rem;
+  align-items: center;
+}
+
+.search-logo {
+  margin-left: 3.2rem;
+}
+
+.search-txt {
+  font-size: 1.4rem;
+  color: #848484;
+}
+input:focus {
+  outline: none;
+  border: none;
+}
+
+input {
+  border: none;
+}
+
+.filter {
+  width: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2.4rem;
+  border-radius: 0.5rem;
+  font-size: 1.4rem;
+  color: #111517;
+  border: none;
+  margin-right: 8rem;
+}
+
+.flags {
+  margin: 4.8rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 7.5rem;
+}
+
+.flag {
+  display: flex;
+  flex-direction: column;
+  width: 26.4rem;
+}
+
+.flag:hover {
+  cursor: pointer;
+}
+
+.flag-txt {
+  background-color: #ffffff;
+  height: 17.6rem;
+  border-radius: 0.5rem;
+  padding-left: 2.4rem;
+}
+
+.flag-title {
+  margin-top: 2.4rem;
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+
+.flag-descripion {
+  margin-top: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+/* .flag-img {
+  width: 26.4rem;
+  height: 16rem;
+} */
+
+.info {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.info-value {
+  font-weight: 500;
+}
